@@ -1,0 +1,8 @@
+#write a function that finds all numbers from 1 to 500 that are divisible by three
+def divByThree(n):
+    if n%3 == 0 and range(1, 500):
+      print "%s is divisible by three" % (n)
+    else:
+      print "%s is not divisible by three" % (n)
+
+divByThree(3)
